@@ -13,7 +13,7 @@ safety_feature_extractor = None
 safety_checker = None
 safety_checker_adj = -0.2
 
-warning_image = os.path.join("extensions", "stable-diffusion-webui-nsfw-censor", "warning", "warning.png")
+warning_image = os.path.join("extensions", "stable-diffusion-webui-nsfw-censor", "warning.png")
 
 def numpy_to_pil(images):
     """
