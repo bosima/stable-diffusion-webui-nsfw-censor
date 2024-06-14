@@ -29,7 +29,7 @@ def numpy_to_pil(images):
 
 
 # check and replace nsfw content
-def check_safety(x_image):
+def check_safety(x_image, safety_checker_adj: float):
     global safety_feature_extractor, safety_checker
 
     if safety_feature_extractor is None:
