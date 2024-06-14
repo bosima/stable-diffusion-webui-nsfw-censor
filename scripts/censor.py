@@ -1,3 +1,4 @@
+import os.path
 import torch
 import numpy as np
 from scripts.safety_checker import StableDiffusionSafetyChecker
