@@ -12,7 +12,7 @@ from modules import scripts, shared
 safety_model_id = "CompVis/stable-diffusion-safety-checker"
 safety_feature_extractor = None
 safety_checker = None
-safety_checker_adj = -0.2
+safety_checker_adj = -0.1
 
 warning_image = os.path.join("extensions", "stable-diffusion-webui-nsfw-censor", "warning.png")
 
